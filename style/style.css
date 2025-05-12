@@ -90,3 +90,36 @@ body{
   height: 60px;
   padding: 12px 0;
 }
+
+
+@media (max-width: 768px) {
+  .cabecalho{
+    flex-direction: column;
+    text-align: center;
+    }
+
+    .cabecalho-lista-item{
+      display: block;
+      margin: 8px 0;
+    }
+
+    .escola{
+      flex-direction: column;
+      text-align: center;
+      padding: 16px;
+    }
+
+    .escola-imagem {
+      width: 80%;
+      margin-top: 16px;
+    }
+
+    .escola-conteudo{
+      width: 100%;
+    }
+
+    .estudantes-todos{
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      padding: 0 16px;
+    }
+}

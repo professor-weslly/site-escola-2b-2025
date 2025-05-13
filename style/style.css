@@ -5,6 +5,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Cal+Sans&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+header a{
+color: white;
+text-decoration: none;
+}
+
+header a:hover{
+  color:bisque;
+} 
+
 body{
   font-family: "Roboto", sans-serif;
 }
@@ -47,7 +56,7 @@ body{
   width: 35%;
 }
 
-.escola-titulo {
+#escola-titulo {
   padding:24px 0;
 }
 

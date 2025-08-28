@@ -2,3 +2,91 @@
   margin: 0;
   padding: 0;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Cal+Sans&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  font-family: "Roboto", sans-serif;
+}
+
+.cabecalho{
+  background-color: #424e61; 
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 24px 0;
+}
+
+.cabecalho-lista-item{
+  display: inline-block;
+  margin: 0 16px;
+  font-size: 24px;
+}
+
+.cabecalho-imagem{
+  width: 120px;
+  height: 80px;
+  border-radius: 30%;
+}
+
+.escola-imagem{
+  width: 30%;
+}
+
+.escola{
+  background-image: linear-gradient(#424e61, #16cff8 );
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0;
+}
+
+.escola-conteudo{
+  width: 35%;
+}
+
+.escola-titulo {
+  padding:24px 0;
+}
+
+.estudantes{
+  padding: 24px 0;
+}
+
+.estudantes-div{
+  text-align: center;
+  padding: 16px 0;
+}
+
+.estudantes-todos{
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.estudantes-titulo{
+  text-align: center;
+  padding: 24px 0;
+}
+
+.estudantes-imagem {
+  width: 100px;
+}
+
+.estudantes-icone {
+  width: 24px;
+  padding: 4px 8px;
+}
+
+.rodape{
+  background-color: #424e61;
+  text-align: center;
+  color:white;
+  font-size: 25px;
+}
+
+.rodape-imagem{
+  height: 60px;
+  padding: 12px 0;
+}
